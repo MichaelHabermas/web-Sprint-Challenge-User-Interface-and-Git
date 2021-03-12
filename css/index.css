@@ -95,7 +95,7 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -140,6 +140,7 @@ table {
 /* end of styling reset  */
 * {
 	box-sizing: border-box;
+	/* border: 2px solid black; */
 }
 
 /* GENERAL STYLING  */
@@ -171,6 +172,23 @@ p {
 /* HEADER */
 
 header {
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	/* border: 2px solid black; */
+	margin: 2% 0;
+}
+
+header nav a {
+	text-decoration: none;
+	align-self: flex-end;
+	color: black;
+	padding: 0 4%;
+}
+
+.header_img {
+	margin: 2% 0;
 }
 
 /* BODY */
