@@ -32,19 +32,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1.  If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is means of creating a descriptive structure for a web page, that creates the 'bones' of what you want a person to see on a webpage, and that is easily readable and understandable to other programmers who might later work on the same project without you present.
+        Semantic HTML is means of creating a descriptive structure for a web page, that creates the 'bones' of what you want a person to see on a webpage, and that is easily readable and understandable to other programmers who might later work on the same project without you present.
 
-2. Name two big differences between `display: block;` and `display: inline;`.
+2.  Name two big differences between `display: block;` and `display: inline;`.
 
-Display: block will always stack each individual element created on top of each other, while Inline will put them side to side from left to right. Also, with Inline, you cant set a height or width.
+        Display: Block will always stack each individual element created on top of each other, while Inline will put them side to side from left to right. Also, with Inline, you cant set a height or width, and with Block you can.
 
-3. What are the 4 areas of the box model?
+3.  What are the 4 areas of the box model?
 
-4. While using flexbox, what axis does the following property work on: `align-items: center`?
+        The content area, padding area, border area, and margin area
 
-5. Explain why git is valuable to a team of developers.
+4.  While using flexbox, what axis does the following property work on: `align-items: center`?
+
+        The cross axis
+
+5.  Explain why git is valuable to a team of developers.
+
+        Version control (by way of git) is invaluable to a team because it prevents catastrophic loss of functionality and progress that sometimes happens when code and features are changed within a project. With it everyone on the team can contribute changes and improvements, but if ever those improvements become incompatable, the team can easily revert to a working mode as opposed to wasting a lot of valuable time trying to fix a very large complicated broken thing.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
